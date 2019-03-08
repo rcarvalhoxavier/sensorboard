@@ -1,0 +1,31 @@
+{
+  "name": "sensorboard",
+  "version": "1.0.0",
+  "description": "Monitorar sensores e enviar para uma api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rcarvalhoxavier/sensorboard.git"
+  },
+  "keywords": [
+    "johnny-five",
+    "arduino",
+    "raspberry",
+    "aspnetcore"
+  ],
+  "author": "Rodrigo Carvalho Xavier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rcarvalhoxavier/sensorboard/issues"
+  },
+  "homepage": "https://github.com/rcarvalhoxavier/sensorboard#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "johnny-five": "^1.0.0",
+    "nano": "^8.0.0"
+  }
+}

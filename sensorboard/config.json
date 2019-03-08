@@ -1,0 +1,29 @@
+{
+    "development": {
+        "config_id": "development",
+        "database": "my-app-db-test"
+    },
+    "sensors": [
+        {
+            "type": "proximity",
+            "id": "proximidade01-quarto",
+            "controller": "HCSR04",
+            "pin": 7,
+            "freq": 1000,
+            "id_client": "555555"
+        },
+        {
+            "type": "proximity",
+            "id": "proximidade02-quarto",
+            "controller": "HCSR04",
+            "pin": 6,
+            "freq": 2000,
+            "id_client": "555555"
+        }
+    ],
+    "production": {
+        "config_id": "production",
+        "node_port": 8080,
+        "database": "my-app-db-prod"
+    }
+}
